@@ -96,7 +96,6 @@ document.getElementById("amigo").addEventListener("keypress", function (event) {
 function resetList() {
   if (amigos.length === 0) {
   }
-
   amigos = [];
   limpiarListaAmigo();
   limpiarListaSorteado();
